@@ -3,6 +3,7 @@
 import { useState } from "react";
 import {genTicket} from "./helper.js";
 import Ticket from "./Ticket.jsx";
+ 
 
 export default function Lottery({n=3,winCondition}){
        let [ticket, setTicket]=useState(genTicket(n));

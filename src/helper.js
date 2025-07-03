@@ -8,6 +8,9 @@ function genTicket(n)
     }
     return arr;
 }
+function Sum(arr)
+{
+    return arr.reduce((Sum,curr)=>Sum + curr, 0);
+}
 
-
-export {genTicket};
+export {genTicket,Sum};
